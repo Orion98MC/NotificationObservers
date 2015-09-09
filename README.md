@@ -37,7 +37,7 @@ class MyHappyObject: ObservableObserver /* It's also a protocol */ {
 
 * Observable
 
-This protocol gives your class the addObserverForName() and removeObservers() methods for free
+This protocol gives your class the addObserverForName() and removeObservers() methods for free (as well as postNotification() and postNotificationName() shortcut methods)
 
 * ObservableObserver
 
